@@ -10,13 +10,11 @@
  */
 int main(void)
 {
-	int i;
+	int num;
 
-	i = 0;
-	while  (i <= 9)
+	for  (num = 0; num < 10; num++)
 	{
-		putchar(i);
-		i++;
+		putchar((num % 10) + '0');
 	}
 	putchar('\n');
 
